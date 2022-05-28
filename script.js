@@ -11,7 +11,7 @@ ScrollTrigger.create({
     scrub: 3,
 });
 
-// hills animation 
+// hills animation (animação de colinas)
 scene1.to("#h1-1", { y: 3 * speed, x: 1 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#h1-2", { y: 2.6 * speed, x: -0.6 * speed, ease: "power1.in" }, 0)
 scene1.to("#h1-3", { y: 1.7 * speed, x: 1.2 * speed }, 0.03)
@@ -27,7 +27,7 @@ scene1.to("#info", { y: 8 * speed }, 0)
 
 
 
-/*   Bird   */
+/*   Bird  (Passaro) */
 gsap.fromTo("#bird", { opacity: 1 }, {
     y: -250,
     x: 800,
@@ -60,7 +60,7 @@ clouds.to("#cloud4", { x: -700, y: 25 }, 0)
 
 
 
-/* Sun motion Animation  */
+/* Sun motion Animation (Animação do movimento do sol) */
 let sun = gsap.timeline();
 ScrollTrigger.create({
     animation: sun,
@@ -102,7 +102,7 @@ scene2.fromTo("#h2-6", { y: 900 }, { y: 0 }, 0.3)
 
 
 
-/* Bats */
+/* Bats(Morcegos voando)*/
 gsap.fromTo("#bats", { opacity: 1, y: 400, scale: 0 }, {
     y: 120,
     scale: 0.8,
@@ -124,7 +124,7 @@ gsap.fromTo("#bats", { opacity: 1, y: 400, scale: 0 }, {
 })
 
 
-/* Sun increase */
+/* Sun increase(aumento do sol) */
 let sun2 = gsap.timeline();
 ScrollTrigger.create({
     animation: sun2,
@@ -170,14 +170,14 @@ ScrollTrigger.create({
     scrub: 3,
 });
 
-//Hills motion
+//Hills motion(Movimento de colinas)
 scene3.fromTo("#h3-1", { y: 300 }, { y: -550 }, 0)
 scene3.fromTo("#h3-2", { y: 800 }, { y: -550 }, 0.03)
 scene3.fromTo("#h3-3", { y: 600 }, { y: -550 }, 0.06)
 scene3.fromTo("#h3-4", { y: 800 }, { y: -550 }, 0.09)
 scene3.fromTo("#h3-5", { y: 1000 }, { y: -550 }, 0.12)
 
-//stars
+//stars(estrelas)
 scene3.fromTo("#stars", { opacity: 0 }, { opacity: 0.5, y: -500 }, 0)
 
 // Scroll Back text
@@ -189,7 +189,7 @@ scene3.to("#bg2-grad", { attr: { cy: 600 } }, 0)
 scene3.to("#bg2-grad", { attr: { r: 500 } }, 0)
 
 
-/*   falling star   */
+/*   falling star(estrela cadente)   */
 gsap.to("#fstar", {
     x: -700,
     y: -250,
@@ -205,7 +205,8 @@ gsap.to("#fstar", {
 })
 
 
-//reset scrollbar position after refresh
+//reset scrollbar position after refresh(redefinição da posição da barra de rolagem após a atualização)
+
 window.onbeforeunload = function() {
     window.scrollTo(0, 0);
 }
