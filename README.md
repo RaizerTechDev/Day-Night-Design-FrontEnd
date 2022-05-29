@@ -8,7 +8,7 @@
 
 ## 🔵 Foram usadas imagens do CodePen;
 ### Obs.: vou deixar o link para quem tiver interesse em reestruturar outros projetos 👇
-### Link  https://codepen.io/
+### Link ↪ https://codepen.io/
 
 ## 🔵 Foram usados métodos que oculta a barra de rolagem.
 
