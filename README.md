@@ -4,13 +4,13 @@
 
 ## https://rafarz76.github.io/Day-Night-Design/
 
-## 🔵 Projeto que foi reestruturado com animação, através do Front-End. com as ferramentas HTML, CSS e Java Script;
+###  🔵 Projeto que foi reestruturado com animação, através do Front-End. com as ferramentas HTML, CSS e Java Script;
 
-## 🔵 Foram usadas imagens do CodePen;
-### Obs.: vou deixar o link para quem tiver interesse em reestruturar outros projetos 👇
+### 🔵 Foram usadas imagens do CodePen;
+#### Obs.: vou deixar o link para quem tiver interesse em reestruturar outros projetos 👇
 ### Link ↪ https://codepen.io/
 
-## 🔵 Foram usados métodos que oculta a barra de rolagem.
+### 🔵 Foram usados métodos que oculta a barra de rolagem.
 
 ## 🚀 Passo a Passo:
 
