@@ -2,7 +2,7 @@
 
 ### ✅ Link para o site 😉👇
 
-## https://RafaRz76Dev.github.io/Day-Night-Design/
+## https://rafarz76dev.github.io/Day-Night-Design-FrontEnd/
 
 ###  🔵 Projeto que foi reestruturado com animação, através do Front-End. com as ferramentas HTML, CSS e Java Script;
 
